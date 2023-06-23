@@ -1,3 +1,0 @@
-define polygon "\\operatorname{polygon}"
-define rgb "\operatorname{rgb}"
-define hsv "\operatorname{hsv}"
