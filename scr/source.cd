@@ -1,4 +1,0 @@
-# This is a comment
-include "stdio.cd"
-
-"polygon((0, 0), (1, 1), (2, 0))"
