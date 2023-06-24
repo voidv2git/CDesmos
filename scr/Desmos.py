@@ -5,8 +5,8 @@ class API:
     def SetExpressionNote(self, id : str, text : str):
         self.expressions += "    calculator.setExpression({ id: '" + id + "', type: \'text\', text: '" + text + "' });\n"
 
-    def SetExpression(self, id : str, latex : str):
-        self.expressions += "    calculator.setExpression({ id: '" + id + "', latex: '" + latex + "' });\n"
+    def SetExpression(self, id : str, latex : str, color : str):
+        self.expressions += "    calculator.setExpression({ id: '" + id + "', latex: '" + latex + "', color: '" + color + "' });\n"
 
     def Compile(self, fileName : str):
         baseHtml = """<script src="https://www.desmos.com/api/v1.8/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
